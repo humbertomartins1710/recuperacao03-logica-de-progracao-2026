@@ -36,119 +36,68 @@
 
 ### Questão 01
 
-Uma empresa deseja analisar o desempenho de seus vendedores durante um determinado período.
+Uma escola deseja analisar as notas de uma turma.
 
-Desenvolva um algoritmo que solicite ao usuário a quantidade de vendedores que serão analisados.
+Desenvolva um algoritmo que solicite ao usuário a quantidade de estudantes que serão analisados.
 
-Para cada vendedor, o programa deverá solicitar o valor total de vendas realizadas.
+Para cada estudante, o programa deverá solicitar uma nota entre `0` e `10`.
 
-Ao final, o algoritmo deverá apresentar:
+Ao final, o programa deverá apresentar:
 
-* A quantidade de vendedores que venderam mais de R$ 5.000,00.
-* A quantidade de vendedores que venderam R$ 5.000,00 ou menos.
-* O valor total vendido por todos os vendedores.
-* A média de vendas dos vendedores.
+* Quantidade de estudantes com nota maior ou igual a `7`.
+* Quantidade de estudantes com nota menor que `7`.
+* Soma de todas as notas.
+* Média das notas da turma.
 
 ---
 
 ### Questão 02
 
-Você está desenvolvendo um sistema para controlar as tentativas de acesso a uma área restrita. A senha correta do sistema é `4321`.
-O algoritmo deverá solicitar uma senha ao usuário.
+Uma loja deseja registrar o valor das compras realizadas durante o dia.
 
-Enquanto a senha digitada estiver incorreta, o programa deverá informar:
+Inicialmente, o programa deverá solicitar quantas compras serão registradas.
 
-`Senha incorreta! Tente novamente.`
+Para cada compra, solicite o valor pago pelo cliente.
 
-O usuário poderá realizar no máximo **3 tentativas**.
+Ao final, o programa deverá apresentar:
 
-Caso informe a senha correta, o programa deverá apresentar:
-
-`Acesso permitido.`
-
-Caso utilize todas as tentativas sem acertar a senha, deverá apresentar:
-
-`Acesso bloqueado.`
-
-Ao final, informe também quantas tentativas foram utilizadas.
+* Quantidade de compras realizadas.
+* Valor total vendido.
+* Média de valor das compras.
+* Quantidade de compras com valor maior que `R$ 100,00`.
 
 ---
 
 ### Questão 03
 
-Um posto de combustível deseja analisar os abastecimentos realizados durante um determinado período.
+Desenvolva um programa para realizar uma contagem utilizando valores informados pelo usuário.
 
-Desenvolva um algoritmo que inicialmente solicite ao usuário a quantidade de abastecimentos que serão registrados.
+O programa deverá solicitar:
 
-Para cada abastecimento, o programa deverá solicitar:
+* Um número inicial.
+* Um número final.
 
-* Tipo de combustível:
+Em seguida, o programa deverá apresentar todos os números existentes entre o número inicial e o número final.
 
-  * `1 - Gasolina`
-  * `2 - Etanol`
-  * `3 - Diesel`
-* Quantidade de litros abastecidos.
+Além disso, ao final deverá informar:
 
-Considere os seguintes valores por litro:
+* Quantos números foram apresentados.
+* Quantos números são pares.
+* Quantos números são ímpares.
 
-* Gasolina - R$ 6,20
-* Etanol - R$ 4,30
-* Diesel - R$ 5,90
+Exemplo:
 
-Para cada abastecimento, o algoritmo deverá calcular e apresentar o valor a ser pago.
+```text
+Número inicial: 3
+Número final: 8
 
-Ao final, o programa deverá apresentar:
+3
+4
+5
+6
+7
+8
 
-* Quantidade de abastecimentos com gasolina.
-* Quantidade de abastecimentos com etanol.
-* Quantidade de abastecimentos com diesel.
-* Quantidade total de litros vendidos.
-* Valor total arrecadado pelo posto.
-* Qual combustível teve a maior quantidade de abastecimentos.
-
-Caso seja informado um tipo de combustível inválido, o abastecimento não deverá ser contabilizado e o usuário deverá informar os dados novamente.
-
----
-
-### Questão 04
-
-Você precisa desenvolver um sistema simples para controlar os pedidos realizados em uma lanchonete.
-
-O programa deverá apresentar repetidamente o seguinte menu:
-
-`1 - Hambúrguer - R$ 20,00`
-`2 - Cachorro-quente - R$ 15,00`
-`3 - Refrigerante - R$ 7,00`
-`4 - Batata frita - R$ 12,00`
-`0 - Finalizar pedido`
-
-A cada escolha, o valor correspondente deverá ser adicionado ao total da compra.
-
-O menu deverá continuar sendo apresentado até que o usuário escolha a opção `0`.
-
-Ao finalizar, o algoritmo deverá apresentar:
-
-* Quantidade total de itens pedidos.
-* Valor total da compra.
-* Valor médio gasto por item.
-
-Caso seja informada uma opção diferente das disponíveis no menu, apresente uma mensagem informando que a opção é inválida e não contabilize nenhum item.
-
----
-
-### Questão 05
-
-Um jogador deseja analisar seu desempenho em várias partidas.
-
-O algoritmo deverá solicitar quantas partidas serão analisadas.
-
-Para cada partida, informe a quantidade de gols marcados.
-
-Considere que cada gol vale `50 pontos`.
-
-Ao final, o programa deverá apresentar:
-
-* A quantidade total de gols.
-* A pontuação total do jogador.
-* A média de gols por partida.
-* Quantas partidas o jogador marcou 2 gols ou mais.
+Quantidade de números: 6
+Pares: 3
+Ímpares: 3
