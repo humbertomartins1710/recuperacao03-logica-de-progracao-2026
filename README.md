@@ -21,6 +21,7 @@
    1. Selecione uma pasta no computador.
    2. Abra o CMD (Terminal).
    3. Execute o comando `git clone <url_do_repositório>`.
+
 3. Abra no VS Code a pasta do projeto.
 4. Desenvolva os exercícios.
 5. Ao finalizar, você deverá commitar e enviar novamente para o GitHub suas modificações.
@@ -28,6 +29,7 @@
    1. Adicione as alterações ao stage utilizando o comando `git add .`.
    2. Faça o commit utilizando o comando `git commit -m "sua mensagem"`.
    3. Envie as alterações utilizando o comando `git push origin master`.
+
 6. Por fim, copie o link do seu repositório e faça o envio no AVA.
 
    1. O link deverá ser adicionado como comentário na entrega da atividade.
@@ -101,3 +103,69 @@ Número final: 8
 Quantidade de números: 6
 Pares: 3
 Ímpares: 3
+```
+
+---
+
+### Questão 04
+
+Uma pequena loja deseja desenvolver um sistema para registrar a venda de produtos.
+
+O programa deverá apresentar repetidamente o seguinte menu:
+
+```text
+1 - Água - R$ 4,00
+2 - Refrigerante - R$ 7,00
+3 - Suco - R$ 6,00
+0 - Finalizar
+```
+
+Sempre que o usuário escolher um produto, o valor correspondente deverá ser adicionado ao total da compra.
+
+O menu deverá continuar sendo apresentado até que seja informada a opção `0`.
+
+Ao finalizar, apresente:
+
+* Quantidade total de produtos comprados.
+* Valor total da compra.
+* Quantidade de refrigerantes comprados.
+
+Caso seja informada uma opção inválida, apresente:
+
+```text
+Opção inválida.
+```
+
+A opção inválida não deverá ser contabilizada.
+
+---
+
+### Questão 05
+
+Um programa deverá solicitar números inteiros ao usuário repetidamente.
+
+A leitura deverá continuar até que o usuário informe o número `0`.
+
+O número `0` deverá servir apenas para finalizar o programa e não deverá ser contabilizado.
+
+Ao final, apresente:
+
+* Quantidade de números informados.
+* Soma dos números informados.
+* Quantidade de números positivos.
+* Quantidade de números negativos.
+
+Exemplo:
+
+```text
+Digite um número: 10
+Digite um número: -3
+Digite um número: 5
+Digite um número: -2
+Digite um número: 0
+
+Quantidade de números: 4
+Soma: 10
+Positivos: 2
+Negativos: 2
+```
